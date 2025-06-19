@@ -12,13 +12,13 @@ const Resume = () => {
                         <section>
                             <div className="d-flex align-items-center justify-content-between mb-4">
                                 <h2 className="text-primary fw-bolder mb-4">Edukasi</h2>
-                                <a className="btn btn-primary px-4 py-3" href="#!">
+                                <a className="btn btn-primary px-4 py-3" href="/document/resume.pdf" download={true}>
                                     <div className="d-inline-block bi bi-download me-2"></div>
                                     Download Resume
                                 </a>
                             </div>
                             <CardResume
-                                year={'2015 - 2018'}
+                                year={'2018 - 2022'}
                                 position={'Sekolah Tinggi Teknologi Bandung'}
                                 company={''}
                                 gelar={'S1'}
@@ -27,7 +27,7 @@ const Resume = () => {
                                 description={'Selama menempuh pendidikan di STT Bandung, saya mempelajari dasar-dasar pemrograman, struktur data, basis data, jaringan komputer, serta pengembangan perangkat lunak. Saya juga aktif dalam berbagai proyek pengembangan aplikasi dan riset kecil yang mendukung pemahaman praktis di bidang teknologi informasi.'}
                             />
                             <CardResume
-                                year={'2012 - 2015'}
+                                year={'2015 - 2018'}
                                 position={'SMKN 1 Bongas'}
                                 company={''}
                                 gelar={'SMK'}
@@ -47,20 +47,29 @@ const Resume = () => {
                                                 <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-code-slash"></i></div>
                                                 <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Keahlian</span></h3>
                                             </div>
-                                            <div class="row row-cols-1 row-cols-md-3">
+                                            <div class="row row-cols-1 row-cols-md-3 mb-4">
                                                 <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div></div>
                                                 <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
                                                 <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
-                                                <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">PHP</div></div>
-                                                <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Codeigniter</div></div>
+                                            </div>
+                                             <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">PHP</div></div>
+                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Codeigniter</div></div>
                                                 <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Yii</div></div>
+                                            </div>
+                                            <div class="row row-cols-1 row-cols-md-3 mb-4">
                                                 <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">PostgreSQL</div></div>
                                                 <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">MySQL</div></div>
-                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Flutter</div></div>
-                                                <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Node.js</div></div>
-                                                <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">React.js</div></div>
+                                                <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Flutter</div></div>
+                                            </div>
+                                            <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Node.js</div></div>
+                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">React.js</div></div>
                                                 <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">C++</div></div>
-                                                <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">RESTful API</div></div>
+                                            </div>
+                                            <div class="row row-cols-1 row-cols-md-3">
+                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">RESTful API</div></div>
+                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Git Control</div></div>
                                                 <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Java</div></div>
                                             </div>
                                         </div>
@@ -84,7 +93,9 @@ const Resume = () => {
                                         <ul>
                                             <li>Membangun dan mengembangkan fitur aplikasi berbasis web menggunakan teknologi seperti PHP (Yii1, Yii2), JavaScript, dan PostgreSQL</li>
                                             <li>Merancang antarmuka pengguna yang responsif dan fungsional dengan menggunakan HTML, CSS, dan framework frontend (seperti Bootstrap dll )</li>
-                                            <li>Berkolaborasi dengan tim untuk merancang struktur database dan integrasi API. Melakukan debugging, optimasi performa, dan peningkatan keamanan aplikasi</li>
+                                            <li>Berkolaborasi dengan tim untuk merancang struktur database dan integrasi API.</li>
+                                            <li>Implementasi bridging API BPJS dan Satu Sehat</li>
+                                            <li> Melakukan debugging, optimasi performa, dan peningkatan keamanan aplikasi</li>
                                             <li>Mendukung proses deployment serta melakukan pemeliharaan dan pembaruan sistem secara berkala</li>
                                         </ul>
                                         <p>Selama bekerja di sini, saya banyak terlibat dalam pengembangan sistem manajemen rumah sakit dan aplikasi terkait pelayanan medis, yang menuntut akurasi tinggi, efisiensi, dan kepatuhan terhadap standar data sensitif</p>
@@ -117,6 +128,18 @@ const Resume = () => {
                         {/* acivment section */}
                         <section>
                             <h2 className="text-info fw-bolder mb-0">Prestasi</h2>
+                            <CardResume
+                                year={<><i>Desember</i> 2024</>}
+                                position={'Best Inovers of the Year 2024'}
+                                company={'PT. Inovamedika Solusindo'}
+                                location={'Bandung'}
+                                cssColorYear={'text-info'}
+                                description={
+                                    <>
+                                        <p>Penghargaan ini diberikan sebagai bentuk apresiasi kepada karyawan terbaik yang menunjukkan dedikasi, inovasi, dan kontribusi luar biasa terhadap pertumbuhan dan pengembangan perusahaan selama tahun 2024. Saya dinobatkan sebagai <b>Best Inovers of the Year</b> atas keberhasilan dalam menghadirkan solusi teknologi yang berdampak nyata, kolaborasi tim yang efektif, serta konsistensi dalam memberikan hasil kerja berkualitas tinggi di setiap proyek. Penghargaan ini menjadi motivasi untuk terus berinovasi dan memberikan yang terbaik di masa mendatang</p>
+                                    </>
+                                }
+                            />
                             <CardResume
                                 year={'2024'}
                                 position={'Best Inovers of the Year 2024'}
