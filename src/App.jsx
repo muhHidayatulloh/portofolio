@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Navigasi from './layout/Navigasi'
 import Footer from './layout/Footer'
 import Resume from './pages/Resume'
+import ComingSoon from './pages/ComingSoon'
 
 function App() {
 	return (
@@ -11,8 +12,8 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/resume" element={<Resume />} />
-					<Route path="/projects" element={<h1>Projects</h1>} />
-					<Route path="/contact" element={<h1>Contact</h1>} />
+					<Route path="/projects" element={<ComingSoon />} />
+					<Route path="/contact" element={<ComingSoon />} />
 				</Routes>
 			<Footer />
 		</>

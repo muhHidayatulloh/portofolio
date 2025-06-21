@@ -1,4 +1,4 @@
-const CardResume = ({ year, position, company, location, gelar, description, jurusan, cssColorYear }) => {
+const CardResume = ({ year, position, company, location, gelar, description, jurusan, cssColorYear, imgSrc }) => {
     return (
         <div className="card shadow border-0 rounded-4 mb-5">
             <div className="card-body p-5">
@@ -16,7 +16,13 @@ const CardResume = ({ year, position, company, location, gelar, description, jur
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-8"><div>{description}</div></div>
+                    <div className={ imgSrc ? "col-lg-6" : "col-lg-8"}><div>{description}</div></div>
+                    {
+                        imgSrc ?
+                        <div className="col-lg-2">
+                            <img src={imgSrc} className="img-fluid" alt="best inovers 2024" />
+                        </div> : ''
+                    }
                 </div>
             </div>
         </div>
