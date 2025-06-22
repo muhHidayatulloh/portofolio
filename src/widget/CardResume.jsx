@@ -20,7 +20,7 @@ const CardResume = ({ year, position, company, location, gelar, description, jur
                     {
                         imgSrc ?
                         <div className="col-lg-2">
-                            <img src={imgSrc} className="img-fluid" alt="best inovers 2024" />
+                            <img src={imgSrc} className="img-fluid" alt="image" />
                         </div> : ''
                     }
                 </div>
