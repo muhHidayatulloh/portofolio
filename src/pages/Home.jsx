@@ -53,9 +53,9 @@ const Home = () => {
 
                                     Saya memiliki semangat tinggi dalam belajar hal baru dan terus mengikuti perkembangan teknologi. Saat ini saya mencari kesempatan untuk bergabung dengan tim yang dinamis dan berkontribusi dalam membangun solusi digital yang berdampak nyata.</p>
                                 <div className="d-flex justify-content-center fs-2 gap-4">
-                                    <a className="text-gradient" href="#!"><i className="bi bi-twitter"></i></a>
-                                    <a className="text-gradient" href="#!"><i className="bi bi-linkedin"></i></a>
-                                    <a className="text-gradient" href="#!"><i className="bi bi-github"></i></a>
+                                    <a className="text-gradient" href="https://x.com/dayat_ayed"><i className="bi bi-twitter"></i></a>
+                                    <a className="text-gradient" href="https://www.linkedin.com/in/muhamad-hidayatulloh-89173a251/" target='_blank'><i className="bi bi-linkedin"></i></a>
+                                    <a className="text-gradient" href="https://github.com/muhHidayatulloh"><i className="bi bi-github"></i></a>
                                 </div>
                             </div>
                         </div>
